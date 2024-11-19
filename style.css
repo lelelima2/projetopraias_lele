@@ -1,0 +1,73 @@
+body{
+    /*Estiliza o fundo da nossa pagina aplicando uma cor*/
+    background-color:rgb(63, 171, 179);
+    /*Modifica a fonte da letra do meu documento*/
+        font-family: 'Courier New', Courier, monospace;
+}
+
+#logo{
+    /*Transforma os cantos da imagem em cantos curvos, arredondando a imagem*/
+    border-radius: 40%;
+    /*Modifica a largura do elemento*/
+    width: 5%;
+    /*Modifca a altura do elemento*/
+    height: 5%;
+}
+
+img,video{
+    width:90%;
+    height:35%;
+}
+
+hr{
+    border: 1px solid; /*Define a largura e o tipo de borda*/
+    border-color:rgb(143, 214, 214); /*Define a cor da borda(linha)*/
+    width:35%;
+}
+/*Abaixo estamos estilizando o icone por meio das classes do comando usando ponto (.) antes do nome*/
+.icone{
+    border-radius: 10%;/*Arredondar as bordas do elemento*/
+    width: 100px;
+    height: 60px;
+}
+
+section{
+    background-color: rgb(143, 214, 214);
+    border: 1px solid;
+    border-color: hsl(197, 70, 11);
+    margin:5%; /*Define o espaço entre o limite da pagina web e os elementos contidos nelas*/
+    padding:2%;/*Define o espaço entre o conteúdo do site e o elemento em que ele está contido*/
+}
+
+.ladoalado{
+    display:flex; /*Usa um layout flexivel para alinhar os elementos*/
+    align-items: center; /*Alinhamento vertical dos itens*/
+    justify-content: center; /*Alinhamento horizontal dos itens*/
+    gap: 1rem; /*Espaço entre o elementos*/
+}
+
+/*Modificação aula 29/10*/
+
+.ladoalado2{
+    width: 100%;
+    background-color: rgba(33, 79, 87, 0.438);
+    display:flex; /*Usa um layout flexivel para alinhar os elementos*/
+    position:fixed;
+    z-index:1;
+    align-items: center; /*Alinhamento vertical dos itens*/
+    gap: 1rem; /*Espaço entre o elementos*/
+
+}
+
+.menu-item{
+    text-decoration: none; /*Retira o traço abaixo do link*/
+    color: rgb(18, 65, 70);
+    font-weight: bold; /*Define o texto como negrito*/;
+    gap: 10px;
+}
+
+.menu-item:hover{
+    color: rgb(99, 188, 204);
+    font-size: 18px;
+}
+
